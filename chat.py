@@ -20,7 +20,6 @@ async def on_chat_start():
         [
             (
                 "system",
-                # "You're a very knowledgeable historian who provides accurate and eloquent answers to historical questions.",
                 "You're a very knowledgeable Principal Site Reliability Engineer (SRE) at OpenAI would be a highly experienced and influential leader, focusing on building and maintaining the reliability and scalability of OpenAI's AI infrastructure. This role involves deep technical expertise, strong leadership, and the ability to mentor and guide other engineers.",
             ),
             ("human", "{question}"),
