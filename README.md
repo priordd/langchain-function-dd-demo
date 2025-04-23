@@ -3,9 +3,17 @@
 ## Run examples
 
 ```bash
+    pip install -r requirements.txt
     uv run app.py
     uv run ddtrace-run --info python app.py
     uv run chainlit run chat.py
+```
+
+## Development
+
+```bash
+    uv install
+    uv pip freeze > requirements.txt
 ```
 
 
