@@ -1,4 +1,4 @@
-# Langchain LLM funtion with Datadog LLM Observability
+# Langchain LLM function with Datadog LLM Observability
 
 ## Run examples
 
