@@ -18,7 +18,7 @@ LLMObs.enable(
     api_key=os.getenv("DD_API_KEY"),
     site=os.getenv("DD_SITE"),
     ml_app=os.getenv("DD_LLMOBS_ML_APP"),
-    agentless_enabled=os.getenv("DD_LLMOBS_AGENTLESS_ENABLED"),
+    agentless_enabled=0,
     env=os.getenv("DD_ENV"),
     service=os.getenv("DD_SERVICE"),
 )
